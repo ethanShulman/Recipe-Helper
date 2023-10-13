@@ -90,54 +90,10 @@ Handles the navigation for application:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## API
 
-```javascript
-const fetchRecipe = async () => {
-const url = `https://recipe-by-api-ninjas.p.rapidapi.com/v1/recipe?query=${ingredient}`;
-const options = {
-  method: "GET",
-  headers: {
-    "X-RapidAPI-Key": "d17394ccc1mshee0c1a995db6e10p18d818jsne9e96816334f",
-    "X-RapidAPI-Host": "recipe-by-api-ninjas.p.rapidapi.com",
-  },
-};
+Recipe API from API Ninjas
+https://api-ninjas.com/api/recipe
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Configuration
-
-Here is my package.json
-{
-  "name": "my-react-app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.2",
-    "dom": "^0.0.3",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.9.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.16.0",
-    "router": "^1.3.8"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "vite": "^4.4.5"
-  }
-}
-
 
 ## React + Vite
 
