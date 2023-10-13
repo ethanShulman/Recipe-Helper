@@ -46,12 +46,30 @@
   font-family: 'Fajardo';
   src: url('./assets/James Fajardo.ttf');
 }
+/* @font-face {
+  font-family: 'Casablanca';
+  src: url('./assets/Casablanca Noir Personal Use.ttf');
+}
+@font-face {
+  font-family: 'Infinite_Stroke';
+  src: url('./assets/Infinite_Stroke.otf');
+} */
 
 .input-field {
   background-color: #e57d7d;
-  color: black;
+  color: rgb(78, 78, 78);
 }
 
 p {
   font-size: 14px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('./assets/Caveat.ttf');
 }

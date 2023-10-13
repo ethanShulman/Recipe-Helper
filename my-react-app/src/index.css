@@ -1,5 +1,5 @@
 #root {
-  font-family: 'darleston', 'Fajardo', 'sans-serif';
+  font-family: 'Fajardo', 'sans-serif';
   line-height: 1.5;
   font-weight: 400;
   font-size: 50px;
@@ -8,13 +8,17 @@
   color-scheme: light dark;
   color: #e46161;
   background-color: #feffdf;
-  border-radius: 12%;
+  border-radius: 8%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.carousel-font {
+  font-family: 'Caveat';
 }
 
 a {
@@ -25,6 +29,15 @@ a {
 a:hover {
   color: #e57d7d;
 }
+#submit-a-tag:hover {
+  color: #e57d7d;
+}
+#submit-a-tag{
+  font-weight: 500;
+  color: #e46161;
+  text-decoration: inherit;
+}
+
 
 body {
   margin: 0;
@@ -76,3 +89,19 @@ button:focus-visible {
 
   
 }
+
+#username-form {
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+
+.name-input {
+  background-color: #e57d7d;
+  color: rgb(84, 82, 82);
+}
+
+#userNameBtn {
+  color: #e46161;
+}
+
+
