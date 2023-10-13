@@ -10,11 +10,18 @@ const NavBar = () => {
   const [submittedUsername, setSubmittedUsername] = useState('');
 
 
+  /**
+   * The function `handleUsernameChange` is used to handle changes in the username input field.
+   */
   const handleUsernameChange = (e) => {
     e.preventDefault();
     setUsername(e.target.value);
   };
 
+  /**
+   * The submitFunc function prevents the default form submission behavior and sets the
+   * submittedUsername state variable to the value of the username variable.
+   */
   const submitFunc = (e) => {
     e.preventDefault();
     setSubmittedUsername(username);
