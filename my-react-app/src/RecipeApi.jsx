@@ -14,7 +14,7 @@ const RecipeApi = () => {
     const [ingredient, setIngredient] = useState("");
     const [allResults, setAllResults] = useState([]);
     const { username, setUsername } = useContext(NameContext);
-    // const apiKey = import.meta.env.VITE_SOME_KEY
+    const apiKey = import.meta.env.VITE_SOME_KEY
 
 
   /* The `fetchRecipe` function is an asynchronous function that is responsible for making an API call
@@ -24,7 +24,7 @@ const RecipeApi = () => {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "d17394ccc1mshee0c1a995db6e10p18d818jsne9e96816334f",
+        "X-RapidAPI-Key": `${apiKey}`,
         "X-RapidAPI-Host": "recipe-by-api-ninjas.p.rapidapi.com",
       },
 
